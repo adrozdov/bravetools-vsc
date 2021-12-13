@@ -1,0 +1,193 @@
+[
+  {
+    "name": "data-brave-local",
+    "status": "Running",
+    "address": "10.0.0.100",
+    "disk": null,
+    "proxy": [
+      {
+        "name": "data-brave-local-proxy-5432:5432",
+        "connectIp": "tcp:127.0.0.1:5432",
+        "listenIp": "tcp:0.0.0.0:5432"
+      }
+    ],
+    "nic": {
+      "name": "eth0",
+      "type": "nic",
+      "nicType": "bridged",
+      "parent": "bravebr0",
+      "ip": "10.0.0.100"
+    }
+  },
+  {
+    "name": "test-brave-local-1",
+    "status": "Running",
+    "address": "10.0.0.32",
+    "disk": null,
+    "proxy": [
+      {
+        "name": "test-brave-local-1-proxy-8091:8088",
+        "connectIp": "tcp:127.0.0.1:8088",
+        "listenIp": "tcp:0.0.0.0:8091"
+      }
+    ],
+    "nic": {
+      "name": "eth0",
+      "type": "nic",
+      "nicType": "bridged",
+      "parent": "bravebr0",
+      "ip": ""
+    }
+  },
+  {
+    "name": "test-brave-local-2",
+    "status": "Running",
+    "address": "10.0.0.89",
+    "disk": null,
+    "proxy": [
+      {
+        "name": "test-brave-local-2-proxy-8092:8088",
+        "connectIp": "tcp:127.0.0.1:8088",
+        "listenIp": "tcp:0.0.0.0:8092"
+      }
+    ],
+    "nic": {
+      "name": "eth0",
+      "type": "nic",
+      "nicType": "bridged",
+      "parent": "bravebr0",
+      "ip": ""
+    }
+  },
+  {
+    "name": "test-brave-local-3",
+    "status": "Running",
+    "address": "10.0.0.22",
+    "disk": null,
+    "proxy": [
+      {
+        "name": "test-brave-local-3-proxy-8093:8088",
+        "connectIp": "tcp:127.0.0.1:8088",
+        "listenIp": "tcp:0.0.0.0:8093"
+      }
+    ],
+    "nic": {
+      "name": "eth0",
+      "type": "nic",
+      "nicType": "bridged",
+      "parent": "bravebr0",
+      "ip": ""
+    }
+  },
+  {
+    "name": "test-brave-local",
+    "status": "Running",
+    "address": "10.0.0.84",
+    "disk": null,
+    "proxy": [
+      {
+        "name": "test-brave-local-proxy-8088:8088",
+        "connectIp": "tcp:127.0.0.1:8088",
+        "listenIp": "tcp:0.0.0.0:8088"
+      }
+    ],
+    "nic": {
+      "name": "eth0",
+      "type": "nic",
+      "nicType": "bridged",
+      "parent": "bravebr0",
+      "ip": ""
+    }
+  },
+  {
+    "name": "test-brave-local-4",
+    "status": "Running",
+    "address": "10.0.0.237",
+    "disk": null,
+    "proxy": [
+      {
+        "name": "test-brave-local-4-proxy-8094:8088",
+        "connectIp": "tcp:127.0.0.1:8088",
+        "listenIp": "tcp:0.0.0.0:8094"
+      }
+    ],
+    "nic": {
+      "name": "eth0",
+      "type": "nic",
+      "nicType": "bridged",
+      "parent": "bravebr0",
+      "ip": ""
+    }
+  },
+  {
+    "name": "brave-data-workflow",
+    "status": "Running",
+    "address": "10.0.0.197",
+    "disk": [
+      {
+        "name": "diskeA",
+        "path": "brave_images",
+        "source": "/home/ubuntu/volumes/brave_images"
+      }
+    ],
+    "proxy": [
+      {
+        "name": "brave-data-workflow-proxy-80:80",
+        "connectIp": "tcp:127.0.0.1:80",
+        "listenIp": "tcp:0.0.0.0:80"
+      }
+    ],
+    "nic": {
+      "name": "eth0",
+      "type": "nic",
+      "nicType": "bridged",
+      "parent": "bravebr0",
+      "ip": ""
+    }
+  },
+  {
+    "name": "data-brave-local-1-30-2",
+    "status": "Running",
+    "address": "10.0.0.60",
+    "disk": null,
+    "proxy": [
+      {
+        "name": "data-brave-local-1-30-2-proxy-8080:80",
+        "connectIp": "tcp:127.0.0.1:80",
+        "listenIp": "tcp:0.0.0.0:8080"
+      },
+      {
+        "name": "data-brave-local-1-30-2-proxy-8432:5432",
+        "connectIp": "tcp:127.0.0.1:5432",
+        "listenIp": "tcp:0.0.0.0:8432"
+      }
+    ],
+    "nic": {
+      "name": "eth0",
+      "type": "nic",
+      "nicType": "bridged",
+      "parent": "bravebr0",
+      "ip": ""
+    }
+  },
+  {
+    "name": "test-brave-local-1-30-2",
+    "status": "Running",
+    "address": "10.0.0.85",
+    "disk": null,
+    "proxy": [
+      {
+        "name": "test-brave-local-1-30-2-proxy-9088:8088",
+        "connectIp": "tcp:127.0.0.1:8088",
+        "listenIp": "tcp:0.0.0.0:9088"
+      }
+    ],
+    "nic": {
+      "name": "eth0",
+      "type": "nic",
+      "nicType": "bridged",
+      "parent": "bravebr0",
+      "ip": ""
+    }
+  }
+]
